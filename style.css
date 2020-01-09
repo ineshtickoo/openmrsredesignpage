@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+#logo img {
+  width: 200px;
+}
+button {
+  font-family: "Nunito", sans-serif;
+}
+nav a {
+  font-family: "Nunito", sans-serif;
+}
+nav {
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);*/
+  border-bottom: 1px solid #ececec;
+  padding: 20px;
+  margin: 0;
+  width: 100%;
+}
+nav .buttons {
+  float: right;
+}
+.dropbtn {
+  background-color: #fff;
+  color: #262626;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #e6e6e6;
+}
+
+#slideshow {
+  z-index: -1;
+  margin-top: 50px;
+}
+
+/*formatting the description section*/
+#description {
+  display: block;
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+  float: left;
+}
+#description table,
+h1 {
+  padding: 20px;
+  margin: auto;
+  width: 85%;
+}
+#description table td {
+  padding: 20px;
+}
+.descbox {
+  width: 80%;
+  margin: auto;
+}
+.descbox p {
+  padding: 20px;
+}
+.descbox p a {
+  color: #262626;
+}
+.descbox p a:hover {
+  background-color: #e1e1e1;
+  color: #262626;
+  transition: ease-in-out 0.3s;
+}
+table {
+  border: none;
+}
+#sidepanel {
+  margin-right: 5%;
+  margin-top: 6%;
+  margin-bottom: 10%;
+  width: 25%;
+  float: left;
+  display: block;
+}
+#sidepanel tbody {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#sidepanel tr {
+  width: 100%;
+}
+.searchbar {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.searchbar input[type="text"] {
+  margin: auto;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.searchbar .searchbtn {
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.searchbtn:hover {
+  background: #ccc;
+}
+
+#sidepanel a {
+  color: #262626;
+}
+#sidepanel a:hover {
+  background-color: #e1e1e1;
+  color: #262626;
+  transition: ease-in-out 0.3s;
+}
+#sidepanel td {
+  padding: 15px 0;
+}
+#sidepanel th {
+  margin-top: 5%;
+}
+
+/*footer design*/
+.footer {
+  margin-top: 5%;
+  padding: 10px;
+}
+#othersites {
+  margin: 0;
+  padding: 0;
+}
+#othersites div {
+  margin-left: 10%;
+}
+
+#othersites a {
+  color: #262626;
+}
+
+#othersites a:hover {
+  background-color: #e1e1e1;
+  color: #262626;
+  transition: ease-in-out 0.3s;
+}
+
+#footer {
+  margin: 0%;
+  padding: 2% 5%;
+  margin-top: 3%;
+  color: #bbbbf2;
+  background-color: #424299;
+}
